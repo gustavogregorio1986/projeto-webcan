@@ -1,0 +1,25 @@
+numeros = [1,2,3,4,5]
+
+for numero in numeros:
+    print(numero)
+
+contador = 100
+
+while contador  > 0:
+    print(contador)
+    contador = contador - 1
+
+
+
+linguagem = "Cobol"
+
+if linguagem  != "Python":
+    print("Não é melhor linguagem do mundo!")
+
+
+while True:
+    mensagem = input("Digite algo: ")
+    print(mensagem)
+
+    if mensagem == "parar":
+        break
